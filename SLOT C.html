@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA STRUCTERS WITH SEARCHING TECHNIQUES</title>
+    <link rel ="stylesheet" href="css.css"> 
+    <style type="text/css">
+        
+        .styled-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+
+        .styled-table  thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+        .styled-table  th,
+        .styled-table td {
+    padding: 12px 15px;
+}
+        .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+        .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+        .styled-table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+        .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <table class="styled-table">
+            <thead>
+        <tr>
+            <th>S.NO</th>
+            <th>DATE</th>
+            <th>ASSIGNEMENT NAME</th>
+            <th>SELECT</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td>1</td>
+            <td> 16-08-2001</td>
+            <td>New assignment:NOTES 16.8.21 </td>
+            <td><a href="https://drive.google.com/file/d/10GbqxxsTFcVcg7Rq_spV8ElYNLyG5_kD/view?usp=sharing">DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>2</td>
+            <td> 16-08-2001</td>
+            <td>New assignment:CONCEPT MAPPING 16.8.21 </td>
+            <td><a href="https://drive.google.com/file/d/10GbqxxsTFcVcg7Rq_spV8ElYNLyG5_kD/view?usp=sharing">DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>3</td>
+            <td> 17-08-2021</td>
+            <td>New assignment:CONCEPT MAPPING </td>
+            <td><a href="https://drive.google.com/file/d/13cknddytVv8kAGgmKNrEIm_h3jySaDX6/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>4</td>
+            <td> 17-08-2021</td>
+            <td>New assignment:NOTES 17-08-2021  </td>
+            <td><a href="https://drive.google.com/file/d/12jqj92bkMlWyr2tccB1ulBm_GjH2N2qS/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>5</td>
+            <td> 18-08-2021</td>
+            <td>New assignment:NOTES 18-08-2021  </td>
+            <td><a href="https://drive.google.com/file/d/14ntYN-XNseLpHeqC7wQzaVkHII6YfEWA/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>6</td>
+            <td> 18-08-2021</td>
+            <td>New assignment:CONCEPT MAPPING</td>
+            <td><a href="https://drive.google.com/file/d/15KrPBL19Q6HSk5rII0k_pYL1Fja8vGXg/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>7</td>
+            <td> 19-08-2021</td>
+            <td>New assignment:SCREEN SHOTS ON 19.8.21</td>
+            <td><a href="https://drive.google.com/file/d/163747qIBiYG9_JoXrWQ24lu6a2YEI9K5/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>8</td>
+            <td> 20-08-2021</td>
+            <td>New assignment:SCREEN SHOTS ON 20.8.21</td>
+            <td><a href="https://drive.google.com/file/d/16OET_G4SpKU24CV8t7X4si55a6oPMqZi/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>9</td>
+            <td> 21-08-2021</td>
+            <td>New assignment:SCREENSHOTS  21.8.2021</td>
+            <td><a href="https://drive.google.com/file/d/18Mz8RnX_GW7dS-wmq4HeD3Q-9GPnH670/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>10</td>
+            <td> 23-08-2021</td>
+            <td>New assignment:SCREENSHOT AND NOTES 23.8.2021</td>
+            <td><a href="https://drive.google.com/file/d/18K9oNdLsyhCz005fqJr9Ynfkf_3cCQbs/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>11</td>
+            <td> 24-08-2021</td>
+            <td>New assignment:SCREENSHOTS ARRAY INSERTION AND DELETION 24.8.2021</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>12</td>
+            <td> 25-08-2021</td>
+            <td>New assignment:NOTES AND SCREENSHOT ON 25.8.2021</td>
+            <td><a href="https://drive.google.com/file/d/19C1qvV4E7V54M8vQ-p5SwuDNjXVO2yCP/view?usp=sharing"> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>13</td>
+            <td> 26-08-2021</td>
+            <td>New assignment:NOTES  ON 26.8.2021</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>14</td>
+            <td> 26-08-2021</td>
+            <td>New assignment:CONCEPT MAPPING FOR ARRAYS</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>15</td>
+            <td> 26-08-2021</td>
+            <td>New assignment:CONCEPT MAPPING FOR LINKED LIST</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>16</td>
+            <td> 27-08-2021</td>
+            <td>New assignment:NOTES ON 27.8.2021</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>17</td>
+            <td> 27-08-2021</td>
+            <td>New assignment:CONCEPT MAPPING DYNAMIC AND STATIC DATA STRUCTURES</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>18</td>
+            <td> 27-08-2021</td>
+            <td>New assignment:CONCEPT MAPPING ON TYPES OF DATA STRUCTURES</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>19</td>
+            <td> 27-08-2021</td>
+            <td>New assignment:CONCEPT MAPPING ON DATA ,DATA OBJECT AND ADT</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>20</td>
+            <td> 27-08-2021</td>
+            <td>New assignment:NOTES ON 24.8.2021</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+        <tr> 
+            <td>21</td>
+            <td> 27-08-2021</td>
+            <td>New assignment:HW ON LINKED LIST AND ARRAYS</td>
+            <td><a href=""> DOWNLOAD</a></td>
+
+        </tr>
+
+    </tbody>
+    </table></center>
+</body>
+</html>
